@@ -29,9 +29,11 @@ import com.example.banckapp.models.TransactionsList
 import com.example.banckapp.ui.theme.BanckAppTheme
 
 @Composable
-fun HomeScreen() {
+fun HomeScreen(innerPadding:PaddingValues = PaddingValues(0.dp)) {
     Column(
+
         modifier = Modifier.fillMaxSize()
+            .padding(innerPadding)
             .padding(20.dp)
     ) {
         Header()

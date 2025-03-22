@@ -13,5 +13,8 @@ data class Transaction(
 val TransactionsList = listOf (
     Transaction("Nike Store", "Ropa & Zapatos", 27, "2:23 PM"),
     Transaction("Pepsi", "Restaurants & Cafe", 34, "10:00 AM"),
-    Transaction("Costco", "Wholesale Club", 450, "11:45 AM")
+    Transaction("Costco", "Wholesale Club", 450, "11:45 AM"),
+    Transaction("Starbucks", "Restaurants & Cafe", 180, "9:15 AM"),
+    Transaction("Walmart", "Market", 250, "3:33 PM"),
+
 )
